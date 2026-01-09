@@ -1,0 +1,1 @@
+alias emulate="sh /home/marcelo/Projects/coursera/nand2tetris/tools/CPUEmulator.sh" && alias assembler="sh /home/marcelo/Projects/coursera/nand2tetris/tools/Assembler.sh" && alias hardware="sh /home/marcelo/Projects/coursera/nand2tetris/tools/HardwareSimulator.sh"

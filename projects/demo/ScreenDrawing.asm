@@ -1,0 +1,8 @@
+@SCREEN
+D=A
+(DESENHAR)
+	A=D
+	M=-1
+	D=D+1
+	@DESENHAR
+	0;JEQ
