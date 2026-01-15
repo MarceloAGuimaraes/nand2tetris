@@ -15,7 +15,7 @@
 (INICIO)
 	@KBD
 	D=A
-	@index
+	@i
 	M=D-1
 	@KBD
 	D=M
@@ -24,10 +24,10 @@
 	@DESENHAR
 	D;JNE
 (APAGAR)
-	@index
+	@i
 	A=M
 	M=0
-	@index
+	@i
 	D=M-1
 	M=D
 	@SCREEN
@@ -37,10 +37,10 @@
 	@INICIO
 	D;JLT
 (DESENHAR)
-	@index
+	@i
 	A=M
 	M=-1
-	@index
+	@i
 	D=M-1
 	M=D
 	@SCREEN
